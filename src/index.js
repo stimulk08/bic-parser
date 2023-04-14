@@ -66,7 +66,7 @@ class BicsParser {
 }
 
 (async () => {
-    const parser = new BicsParser('http://www.cbr.ru/s/newbik1');
+    const parser = new BicsParser('http://www.cbr.ru/s/newbik');
     const bics = await parser.getBics().catch(console.log);
     console.log(bics);
 })();
